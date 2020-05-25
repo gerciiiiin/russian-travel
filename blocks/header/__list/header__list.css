@@ -1,0 +1,13 @@
+.header__list {
+    margin: 0;
+    padding: 0;
+    width: 29px;
+    height: 28px;
+}
+
+.header__list:nth-of-type(1) {
+    padding-right: 18px;
+    text-decoration: underline;
+    width: 30px;
+    height: 28px;
+}
