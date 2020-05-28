@@ -1,2 +1,11 @@
 @import url(__link/website__link.css);
 @import url(__url-heading/website__url-heading.css);
+
+.place__website {
+    width: 456px;
+    height: 46px;
+    align-self: flex-end;
+    grid-row: 1;
+    grid-column: 2;
+    margin-bottom: 48px;
+}

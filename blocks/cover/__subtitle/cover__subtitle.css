@@ -1,12 +1,13 @@
-.website__link {
-    width: 456px;
-    height: 22px;
+.cover__subtitle {
+    width: 360px;
+    height: 66px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    text-decoration-line: underline;
+    text-align: center;
     color: #FFFFFF;
-    float: right;
+    margin: 32px auto 0 auto;
+    z-index: 2;
 }

@@ -3,7 +3,7 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-    width: 690px;
+    max-width: 690px;
     height: 428px;
     margin: 0 0 92px 148px;
 }
