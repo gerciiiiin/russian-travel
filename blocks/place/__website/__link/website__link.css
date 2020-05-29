@@ -10,3 +10,7 @@
     color: #FFFFFF;
     float: right;
 }
+
+.website__link:hover {
+    opacity: 0.8;
+}
