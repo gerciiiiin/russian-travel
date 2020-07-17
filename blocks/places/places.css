@@ -4,3 +4,23 @@
     display: grid;
     grid-template-columns: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        min-height: 4775px;
+        margin: 0 0 0 0;
+    }
+}

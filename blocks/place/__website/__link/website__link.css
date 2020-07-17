@@ -1,6 +1,6 @@
 .website__link {
     width: 456px;
-    height: 22px;
+    min-height: 22px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
@@ -13,4 +13,16 @@
 
 .website__link:hover {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .website__link {
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .website__link {
+        display: none;
+    }
 }

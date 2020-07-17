@@ -10,3 +10,21 @@
     grid-column: 1;
     margin: 0 0 48px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        width: 288px;
+        height: 35px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto 32px auto;
+    }
+}

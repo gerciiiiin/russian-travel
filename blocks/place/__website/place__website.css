@@ -9,3 +9,15 @@
     grid-column: 2;
     margin-bottom: 48px;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        display: none;
+    }
+}

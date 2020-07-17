@@ -3,6 +3,19 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-    max-width: 690px;
-    margin: 0 0 92px 148px;
+    max-width: 984px;
+    margin: 0 auto 92px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        margin: 0 auto 88px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        margin: 0 auto 64px auto;
+    }
 }

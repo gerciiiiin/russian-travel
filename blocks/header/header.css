@@ -6,9 +6,32 @@
 .header {
     max-width: 1184px;
     height: 52px;
-    padding: 28px 0 56px 0;
-    margin: 0 auto;
+    margin: 28px auto 56px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        min-height: 52px;
+        margin: 28px auto 48px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        min-height: 52px;
+        margin: 28px auto 48px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        min-height: 42px;
+        margin: 16px auto 48px auto;
+    }
 }
