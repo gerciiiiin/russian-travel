@@ -2,8 +2,8 @@
 @import url(__url-heading/website__url-heading.css);
 
 .place__website {
-    width: 456px;
-    height: 46px;
+    max-width: 456px;
+    width: 100%;
     align-self: flex-end;
     grid-row: 1;
     grid-column: 2;
@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 768px) {
     .place__website {
-        width: 352px;
+        max-width: 352px;
+        width: 100%;
     }
 }
 

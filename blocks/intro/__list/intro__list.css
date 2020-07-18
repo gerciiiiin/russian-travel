@@ -1,5 +1,6 @@
 .intro__list {
     max-width: 690px;
+    width: 100%;
     min-height: 90px;
     font-family: 'Inter';
     font-style: normal;
@@ -15,12 +16,14 @@
 @media screen and (max-width: 720px) {
     .intro__list {
         max-width: 720px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro__list {
         max-width: 288px;
+        width: 100%;
         margin: 0 auto;
     }
 }

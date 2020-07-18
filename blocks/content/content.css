@@ -7,17 +7,20 @@
 @media screen and (max-width: 1024px) {
     .content {
         max-width: 1024px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .content {
         max-width: 768px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .content {
         max-width: 320px;
+        width: 100%;
     }
 }

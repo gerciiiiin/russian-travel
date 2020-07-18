@@ -4,12 +4,22 @@
 
 .intro {
     max-width: 984px;
+    width: 100%;
     margin: 0 auto 92px auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+        width: 100%;
+        margin: 0 auto 88px auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 720px;
+        width: 100%;
         margin: 0 auto 88px auto;
     }
 }
