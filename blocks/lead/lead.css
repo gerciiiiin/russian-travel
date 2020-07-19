@@ -1,34 +1,14 @@
-@import url(./__image/lead__image.css);
-@import url(./__subtitle/lead__subtitle.css);
 @import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 
 .lead {
-    max-width: 984px;
-    width: 100%;
-    margin: 0 auto 92px auto;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 984px) {
     .lead {
-        max-width: 928px;
-        width: 100%;
-        margin: 0 auto 92px auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .lead {
-        max-width: 768px;
-        width: 100%;
-        margin: 0 0 88px 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead {
-        max-width: 320px;
-        width: 100%;
-        margin: 0 auto 64px auto;
+        max-width: 100%;
     }
 }
