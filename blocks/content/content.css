@@ -1,26 +1,19 @@
+@import url(./__section/content__section.css);
+
 .content {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-row-gap: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 984px) {
     .content {
-        max-width: 1024px;
-        width: 100%;
+        grid-row-gap: 88px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .content {
-        max-width: 768px;
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .content {
-        max-width: 320px;
-        width: 100%;
+        grid-row-gap: 64px;
     }
 }

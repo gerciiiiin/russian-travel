@@ -1,0 +1,6 @@
+@import url(./_size/section-title_size_small.css);
+@import url(./_size/section-title_size_medium.css);
+
+.section-title {
+    font-family: 'Inter', Arial, sans-serif;
+}

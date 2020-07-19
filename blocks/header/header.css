@@ -1,36 +1,11 @@
-@import url(./__logo/header__logo.css);
+@import url(./__lang-lists/header__lang-lists.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(__lists/header__lists.css);
-@import url(__list/header__list.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
+@import url(./__logo/header__logo.css');
 
 .header {
-    max-width: 1184px;
-    width: 100%;
-    margin: 28px auto 56px auto;
+    font-family: 'Inter', Arial, sans-serif;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-}
-
-@media screen and (max-width: 1024px) {
-    .header {
-        max-width: 928px;
-        width: 100%;
-        margin: 28px auto 48px auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header {
-        max-width: 720px;
-        min-height: 52px;
-        margin: 28px auto 48px auto;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header {
-        max-width: 288px;
-        margin: 16px auto 48px auto;
-    }
+    align-items: center;
 }

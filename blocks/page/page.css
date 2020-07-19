@@ -1,31 +1,11 @@
+@import url(__content/page__content.css);
+@import url(__container/page__container.css);
+@import url(__footer/page__footer.css);
+@import url(__header/page__header.css);
+
 .page {
     background-color: #2A2C2F;
-    width: 100%;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0;
 }
-
-@media screen and (max-width: 1024px) {
-    .page {
-        max-width: 1024px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .page {
-        max-width: 768px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .page {
-        max-width: 320px;
-        width: 100%;
-    }
-}
-
-/* {
-    outline-width: 1px;
-    outline-style: solid;
-    outline-color: red;
-} */

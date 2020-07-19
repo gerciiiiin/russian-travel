@@ -1,23 +1,9 @@
-@import url(__link/website__link.css);
-@import url(__url-heading/website__url-heading.css);
-
 .place__website {
-    max-width: 456px;
-    width: 100%;
-    align-self: flex-end;
-    grid-row: 1;
-    grid-column: 2;
-    margin-bottom: 48px;
+    grid-area: url;
+    align-self: end;
 }
 
-@media screen and (max-width: 768px) {
-    .place__website {
-        max-width: 352px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
     .place__website {
         display: none;
     }
